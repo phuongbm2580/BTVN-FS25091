@@ -1,7 +1,7 @@
 
 ---
 
-# **Bài 2 – Lọc các số chẵn trong mảng** (2d)
+# **Bài 1 – Lọc các số chẵn trong mảng** (2d)
 
 **Mô tả:**
 Viết hàm `filterEvenNumbers(arr)` để lọc và trả về một mảng mới chứa các số chẵn từ mảng đầu vào.
@@ -32,7 +32,7 @@ filterEvenNumbers([-2, -1, 0, 1, 2]);       // [-2, 0, 2]
 
 ---
 
-# **Bài 3 – Lọc chuỗi có độ dài lớn hơn 5 ký tự** (2.5d)
+# **Bài 2 – Lọc chuỗi có độ dài lớn hơn 5 ký tự** (2.5d)
 
 **Mô tả:**
 Viết hàm `filterLongStrings(arr)` để trả về một mảng gồm các chuỗi có độ dài lớn hơn 5 ký tự.
@@ -66,7 +66,7 @@ filterLongStrings(["hi", "bye", "yes"]);
 
 ---
 
-# **Bài 4 – Tìm giá trị lớn nhất, nhỏ nhất và trung bình cộng các số nguyên tố** (2.5d)
+# **Bài 3 – Tìm giá trị lớn nhất, nhỏ nhất và trung bình cộng các số nguyên tố** (2.5d)
 
 **Mô tả:**
 Cho mảng số nguyên bất kỳ, hãy viết hàm `findMinMaxAverage(arr)` để tìm:
@@ -98,7 +98,7 @@ findMinMaxAverage([-3, 7, -8, 11, 0]);
 
 ---
 
-# **Bài 16 – Loại bỏ phần tử trùng lặp (không sử dụng Set hoặc reduce)** (2d)
+# **Bài 4 – Loại bỏ phần tử trùng lặp (không sử dụng Set hoặc reduce)** (2d)
 
 **Mô tả:**
 Cho một mảng bất kỳ, hãy viết hàm `removeDuplicates(arr)` để loại bỏ toàn bộ phần tử trùng lặp và trả về một mảng mới chỉ chứa các phần tử duy nhất.
@@ -134,7 +134,7 @@ removeDuplicates([]);
 
 ---
 
-# **Bài 29 – Nén mảng theo nhóm (Run Length Encoding)** (1d)
+# **Bài 5 – Nén mảng theo nhóm (Run Length Encoding)** (1d)
 
 **Mô tả:**
 Cho một mảng đã được nhóm sẵn theo từng cụm phần tử giống nhau đứng liên tiếp, hãy viết hàm `compressArray(arr)` để chuyển mảng này sang dạng nén: mỗi phần tử được biểu diễn bởi một cặp `[giá trị, số lần xuất hiện liên tiếp]`.
